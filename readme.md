@@ -1,16 +1,29 @@
 This application made for replacement of postman, since postman will fail or take time to open some times, 
 this is simple application which can do some basic operation such as create a collection and store the request
     
-    python -m venv myenv
+1. **Install and create a virtual environment**:
+    ```
+    pip install virtualenv
 
-Windows (Command Prompt):
+    python -m venv venv
+    ```
 
-    myenv\Scripts\activate
+2. **Activate the virtual environment**:
+    ```
+    # for mac/ubuntu
+    source venv/bin/activate
 
-Windows (PowerShell):
+    # for windows
+    .\venv\Scripts\activate
+    ```
 
-    .\myenv\Scripts\Activate.ps1
+3. **Installing Dependencies**:
+    ```
+    pip install -r requirements.txt
+    ```
 
-run app
 
+4. **run app**
+	```
     python app.py
+	```
