@@ -1,3 +1,6 @@
+This application made for replacement of postman, since postman will fail or take time to open some times, 
+this is simple application which can do some basic operation such as create a collection and store the request
+    
     python -m venv myenv
 
 Windows (Command Prompt):
@@ -11,6 +14,3 @@ Windows (PowerShell):
 run app
 
     python app.py
-    python app11.py
-    python app11_1.py
-    python app11_s.py
